@@ -5,3 +5,7 @@
 # You can import up to 25 other configs in total.
 
 os: linux
+
+script:
+  - wget https://raw.githubusercontent.com/louiscklaw/travis-playlist/master/travis-build-merger/merge_if_success_test.sh
+  - bash merge_if_success_test.sh | tee merge.log
