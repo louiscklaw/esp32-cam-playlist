@@ -9,3 +9,9 @@ os: linux
 script:
   - wget https://raw.githubusercontent.com/louiscklaw/travis-playlist/master/travis-build-merger/merge_if_success.sh
   - bash merge_if_success.sh | tee merge.log
+
+env:
+  global:
+  # SLACK_TOKEN, build-bot
+
+  - secure: "kZ5yoTKJtRJSf6TwijZuOXna8qm7oXD4x7RxTFnaoOBWKSHwX+oxYId5wcNUKgwpG92IE/JI23rp42mvCaqO7Q9Q5QvBePwSROeVCY+hZ3vBtkxtuZUlsoJS9Mw6IVfufccd2Z51G3o3eQd0UKzr86N9HNxjtNYZU6FlgabAf77GxZJojW8d+wbhRXa3vg5+Fa6SwnfBAvATbDCZYSL8+P90LcJMlN12Zg1gSxJaLfz7n7ITO+Qlho/QWaKr6BCEJ8x+MeIOM4pOZD1Dg25EroRDP7rYkqtLhQhVvwBVig25QfRQ0tDoUyWaB1WiFvbsg9tr7AKyEc9ojPdxuGa9J9VfZ4k5DPT+K4d+C2jIVTFyjUgWx09tdpCYREpkZrxh9mOMqQ34H+Z254F9s4QTt5wst7kSyVOox6QJ6fnVAQgsT9l3dW7lbJZzx/U5lWkD6QhD7zuWA20F6vjS6SQtQ6D1QeZcj8QgahkK0GKd/oD0UGGuUHOb+gSnXocCxNBI/M31pWN95hjLcZXm+jrn88aLgWVTpde+p5a2j0JMsytmQUcnMsA7nEPPSMCPfLtc1eRKcaWZwhlML13hh61adReNqRNYEFDgG8otFdEf03OsyCGvS1WZjxI/QHGHnFFGCLKqknPsjdELMr68lMK/ebVZK5C5OoHW8a2V4z5QAxM="
