@@ -10,3 +10,6 @@ https://www.hackster.io/BnBe_Club/9-rtsp-video-streamer-using-the-esp32-cam-boar
 
 
 rtsp://192.168.99.99:8554/mjpeg/1
+
+
+https://www.hackster.io/BnBe_Club/video-capture-using-the-esp32-cam-board-c61ad7
