@@ -7,3 +7,6 @@ https://robotzero.one/heltec-wifi-kit-32/
 
 ### esp32 with RTSP
 https://www.hackster.io/BnBe_Club/9-rtsp-video-streamer-using-the-esp32-cam-board-8832b4
+
+
+rtsp://192.168.99.99:8554/mjpeg/1
